@@ -1,0 +1,95 @@
+<section class="body" >
+    <form action="https://formsubmit.co/reshilobeth5510@gmail.com" method="POST"  class="form-container" />
+
+        <h1>Volunteers Needed</h1>
+
+        <div class="name-container">
+            <input class="name" type="text" id="name"   name="Name" placeholder="YOUR NAME">
+        </div>
+
+        <div class="emailandnum">
+            <input class="email" type="email" id="email" name="Email id" placeholder="EMAIL ID">
+            <input class="phone" type="tel"   id="phone" name="Phone No" placeholder="PHONE NUMBER"> 
+        </div>
+
+         <div class="current-location-container">
+            <input class="current-location" type="text" id="current-location"  name="My current location" placeholder="Current Location">
+        </div>
+
+
+    
+        <div class="questions">
+            <!-- <label for="location"></label> -->
+            <h3>Please select the location you wanna volunteer with us?</h3>
+            <select name="The place I wish to volunteer" id="location">
+                <option value="Thiruvannamali">Thiruvannamali</option>
+                <option value="Chengalpattu">Chengalpattu</option>
+                <option value="Thiruthani">Thiruthani</option>
+                <option value="Kanchipuram">Kanchipuram</option>
+            </select>
+        </div>
+
+
+        <div class="questions">
+            <h3>Please indicate areas to volunteer according to your skills?</h3>
+            <select name="I would like to volunteer in the area of" id="skills">
+                <option value="Awareness">Awareness</option>
+                <option value="Research">Research</option>
+                <option value="Community classes">Community classes</option>
+                <option value="Computer classes">Computer classes</option>
+                <option value="Arts and Entertainment">Arts and Entertainment</option>
+            </select>
+        </div>
+
+
+
+
+        <div class="questions">
+            <h3>What days of the week are you consistently available?</h3>
+            <select name="I will be available on" id="">
+                <option value="Monday">Monday</option>
+                <option value="Tuesday">Tuesday</option>
+                <option value="Wednesday">Wednesday</option>
+                <option value="Thursday">Thursday</option>
+                <option value="Friday">Friday</option>
+                <option value="Saturday">Saturday</option>
+            </select>
+        </div>
+
+
+        <div class="questions">
+            <h3>Preferences in Shifts</h3>
+            <select name="During this interval, I'll be available" id="">
+                <option value="8AM - 1PM">8AM - 1PM</option>
+                <option value="1PM - 6PM">1PM - 6PM</option>
+                <option value="6PM - 11PM">6PM - 11PM</option>
+            </select>
+        </div>
+
+        
+        <div class=" radio questions">
+            <h3>Do you have previous volunteering experience with another organisation?</h3>
+                <div>
+                    <input type="radio" id="YES" name="volunteering experience" value="YES">
+                    <label for="YES">YES</label>
+                </div>
+                <div>
+                    <input type="radio" id="NO" name="volunteering experience" value="NO">
+                    <label for="NO">NO</label>
+                </div>
+        </div>
+
+        <br>
+       
+        <div class=" textArea-container questions">
+
+            <label id="why">Tell us why you wanted to volunteer with us?</label>
+
+            <br>
+            <input class="comment" type="text" name="I would love to volunteer because," placeholder="Enter your text here..." autocomplete="off">
+        </div>
+
+        <button type="submit">Submit</button>
+
+    </form>
+</section>
