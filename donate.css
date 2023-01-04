@@ -1,13 +1,197 @@
-.donate-container{
+.donatecontainer{
     width: 100%;
-    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.donate-container>form{
+.donatecontainer>form{
     margin: 2rem;
+}
+
+.header-title-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: 70%;
+    margin: 10rem auto;
+}
+
+.header-title-container>h1{
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
+
+.donation-container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.donation-container-right{
+    width: 65%;
+    display: grid;
+    grid-template-columns: repeat(3 1fr);
+    grid-template-rows: repeat(3 1fr);
+    gap: 2em;
+    padding: 0 2em;
+}
+
+
+
+.way-one{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.way-two{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.way-three{
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+.way-four{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.way-five{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.way-six{
+    grid-column: 3/4;
+    grid-row: 2/3;
+} 
+
+.way-seven{
+    grid-column: 1/2;
+    grid-row: 3/4;
+} 
+
+.way-card{
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.way-card>p{
+    font-size: 1rem;
+}
+
+.way-card>h1{
+    font-size: 1.5rem;
+}
+
+.way-card>button{
+    font-size: .9rem;
+    padding: .4rem .7rem;
+    border-radius: 8px;
+    background-color: #FDCB4A;
+    border: none;
+    color: white;
+}
+
+.more-way-container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 5rem 0;
+}
+
+.more-way-right-container>h1{
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
+
+.more-way-left-container{
+    width: 65%;
+    display: grid;
+    grid-template-columns: repeat(2 1fr);
+    grid-template-rows: repeat(2 1fr);
+    gap: 2em;
+    padding: 0 2em;
+}
+
+.more-way-card-one{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.more-way-card-two{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.more-way-card-three{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.more-way-card-three>img{
+    width: 200px;
+}
+
+.more-way-card-four{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.more-way-left-container>div>h1{
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+
+.more-way-left-container>div>p{
+    /* padding-bottom: .5rem; */
+}
+
+.special-donation-container{
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 6rem 0;
+}
+
+.special-donation-para{
+    width: 65%;
+    
+}
+
+.at-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.at-left{
+    display: flex;
+    align-items: flex-end;
+}
+
+.at-left>img{
+    padding: 1rem;
+    padding-left: 5rem;
+    width: 300px;
+}
+
+.at-right{
+    text-align: center;
+    font-size:clamp(18px, 1.3vw, 70px);
+    padding: 4rem 0;
+    background-color: #f4f4f4;
+    margin: 3rem 0;
 }
 
